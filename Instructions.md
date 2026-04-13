@@ -1,11 +1,13 @@
 This is for the instructor because word/powerpoint love to use special quotation marks :P
 
 (What to Install)
+* Brew
+    * /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 * Windsurf
-    * https://www.windsurfrs.com/download
+    * https://windsurf.com/download
     * choco install windsurf
     * winget install --exact --id Codeium.Windsurf
-    * brew install -cask windsurf
+    * brew install --cask windsurf
 * Git
     * https://git-scm.com/download
     * choco install git
