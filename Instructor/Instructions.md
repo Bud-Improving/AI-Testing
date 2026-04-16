@@ -3,6 +3,13 @@ This is for the instructor because word/powerpoint love to use special quotation
 (What to Install)
 * Brew
     * /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+* Github Account:
+    * https://github.com/signup
+    * Use improving Email if you don't have one
+    * Post Username in chat
+* Windsurf Account:
+    * https://windsurf.com/profile
+    * Log in with Devin for Enterprise (Beta)
 * Windsurf
     * https://windsurf.com/download
     * choco install windsurf
@@ -13,13 +20,6 @@ This is for the instructor because word/powerpoint love to use special quotation
     * choco install git
     * winget install --id Git.Git -e --source winget
     * brew install git
-* Github Account:
-    * https://github.com/signup
-    * Use improving Email if you don't have one
-    * Post Username in chat
-* Windsurf Account:
-    * https://windsurf.com/profile
-    * Log in with Devin for Enterprise (Beta)
 
 
 (Pulling a Repository)
