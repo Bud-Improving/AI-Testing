@@ -2,32 +2,33 @@
 
 ```mermaid
 gitGraph
-    commit id: "Initial commit"
+    commit id:"Initial commit"
     branch develop
     checkout develop
-    commit id: "Add feature files"
-    commit id: "Update documentation"
+    commit id:"Add feature files"
+    commit id:"Update documentation"
     
-    branch feature/user-auth
-    checkout feature/user-auth
-    commit id: "Add auth logic"
-    commit id: "Fix auth bugs"
-    
-    checkout develop
-    merge feature/user-auth
-    commit id: "Merge auth feature"
-    
-    branch feature/ui-update
-    checkout feature/ui-update
-    commit id: "Update UI components"
+    branch feature_user_auth
+    checkout feature_user_auth
+    commit id:"Add auth logic"
+    commit id:"Fix auth bugs"
     
     checkout develop
-    merge feature/ui-update
+    merge feature_user_auth
+    commit id:"Merge auth feature"
+    
+    branch feature_ui_update
+    checkout feature_ui_update
+    commit id:"Update UI components"
+    
+    checkout develop
+    merge feature_ui_update
     
     checkout main
-    merge develop tag: "v1.0.0"
+    merge develop
+    commit id:"Release v1.0.0" tag:"v1.0.0"
     
-    commit id: "Hotfix production"
+    commit id:"Hotfix production"
     checkout develop
     merge main
 ```
