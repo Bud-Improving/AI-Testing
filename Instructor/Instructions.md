@@ -13,13 +13,16 @@ This is for the instructor because word/powerpoint love to use special quotation
 * Windsurf
     * https://windsurf.com/download
     * choco install windsurf
-    * winget install --exact --id Codeium.Windsurf
-    * brew install --cask windsurf
+    * winget install --id CognitionAI.DevinDesktop
+    * brew install --cask devin-desktop
 * Git
     * https://git-scm.com/download
     * choco install git
     * winget install --id Git.Git -e --source winget
     * brew install git
+- Visual Studio Code
+    - winget install -e --id Microsoft.VisualStudioCode
+    - brew install --cask visual-studio-code
 
 
 (Pulling a Repository)
